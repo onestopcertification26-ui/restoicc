@@ -3,6 +3,7 @@ import { MenuItem } from "@/types";
 
 export const mockMenuItems: MenuItem[] = [
   {
+    imageUrl: "/images/menu-placeholder.png",
     name: "Wagyu Beef Burger",
     description: "A juicy 200g Wagyu beef patty, toasted brioche bun, sharp cheddar, caramelized onions, smoked beef bacon, and signature house burger sauce.",
     price: 185000,
@@ -12,6 +13,7 @@ export const mockMenuItems: MenuItem[] = [
     available: true,
   },
   {
+    imageUrl: "/images/menu-placeholder.png",
     name: "Signature Grilled Ribeye",
     description: "300g premium USDA choice ribeye steak grilled to order, served with buttery mashed potatoes, seasonal vegetables, and creamy peppercorn sauce.",
     price: 345000,
@@ -21,6 +23,7 @@ export const mockMenuItems: MenuItem[] = [
     available: true,
   },
   {
+    imageUrl: "/images/menu-placeholder.png",
     name: "Fettuccine Truffle Carbonara",
     description: "Al dente fettuccine tossed in a rich, creamy carbonara sauce with crispy pancetta, wild mushrooms, parmesan cheese, and truffle essence.",
     price: 145000,
@@ -30,6 +33,7 @@ export const mockMenuItems: MenuItem[] = [
     available: true,
   },
   {
+    imageUrl: "/images/menu-placeholder.png",
     name: "Truffle Parmesan Fries",
     description: "Golden crispy shoestring potatoes tossed in premium black truffle oil and freshly grated parmesan, served with garlic aioli.",
     price: 75000,
@@ -39,6 +43,7 @@ export const mockMenuItems: MenuItem[] = [
     available: true,
   },
   {
+    imageUrl: "/images/menu-placeholder.png",
     name: "Crispy Calamari Rings",
     description: "Tender calamari rings dusted in seasoned flour, fried to golden perfection, served with spicy marinara and fresh lemon wedge.",
     price: 85000,
@@ -48,6 +53,7 @@ export const mockMenuItems: MenuItem[] = [
     available: true,
   },
   {
+    imageUrl: "/images/menu-placeholder.png",
     name: "Luxe Matcha Latte",
     description: "Ceremonial grade Japanese matcha whisked with velvety steamed oat milk and sweetened with organic blue agave.",
     price: 55000,
@@ -57,6 +63,7 @@ export const mockMenuItems: MenuItem[] = [
     available: true,
   },
   {
+    imageUrl: "/images/menu-placeholder.png",
     name: "Smoked Rosemary Lemonade",
     description: "Freshly squeezed lemons blended with sparkling mineral water and raw cane sugar, cold-infused with rosemary woodsmoke.",
     price: 48000,
@@ -66,6 +73,7 @@ export const mockMenuItems: MenuItem[] = [
     available: true,
   },
   {
+    imageUrl: "/images/menu-placeholder.png",
     name: "Salted Caramel Lava Cake",
     description: "Warm dark chocolate cake with a molten salted caramel core, served with a scoop of Madagascar vanilla bean gelato.",
     price: 68000,
@@ -75,6 +83,7 @@ export const mockMenuItems: MenuItem[] = [
     available: true,
   },
   {
+    imageUrl: "/images/menu-placeholder.png",
     name: "Premium Cocoa Tiramisu",
     description: "Classic layers of espresso-soaked ladyfingers, velvety mascarpone cheese cream, and a rich dusting of premium dark cocoa powder.",
     price: 72000,

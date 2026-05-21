@@ -7,6 +7,7 @@ export interface MenuItem {
   badge?: string;    // 'Best Seller' | 'Chef Special' | 'Spicy' | 'New'
   visualGradient: string; // Beautiful gradients in place of placeholder images
   available: boolean;
+  imageUrl?: string; // thumbnail image URL
 }
 
 export interface OrderItem {

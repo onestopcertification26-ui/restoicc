@@ -29,7 +29,7 @@ export const MenuCard: React.FC<MenuCardProps> = ({ item }) => {
       <div
         className="menu-card-visual"
         style={{
-          background: item.visualGradient,
+          background: item.imageUrl ? `url(${item.imageUrl}) center/cover no-repeat` : item.visualGradient,
           position: "relative",
           display: "flex",
           alignItems: "center",
